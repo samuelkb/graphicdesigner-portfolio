@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOMServer from 'react-dom/server';
 
-import App from 'components/App';
+import App from '../App/App';
 
 export async function serverRenderer() {
   const initialData = {
-    appName: 'Reactful',
+    appName: 'Designer Porfolio',
   };
 
   const pageData = {
