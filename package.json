@@ -1,6 +1,8 @@
 {
   "name": "graphicdesigner-portfolio",
   "version": "1.0.0",
+  "description": "A portfolio landing page for a Designer using React",
+  "main": "index.js",
   "private": true,
   "scripts": {
     "eslint": "eslint \"src/**/*.js\"",
@@ -28,6 +30,13 @@
       "<rootDir>src/setupTests.js"
     ]
   },
+  "keywords": [
+    "designer",
+    "portfolio",
+    "react"
+  ],
+  "author": "Samuelkb",
+  "license": "ISC",
   "dependencies": {
     "@babel/cli": "^7.10.1",
     "@babel/core": "^7.10.1",
