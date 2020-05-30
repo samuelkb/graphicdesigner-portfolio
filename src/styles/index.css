@@ -10,4 +10,126 @@
 
 body {
   color: var(--color-main);
+  font-family: 'Tangerine', serif;
+}
+
+/* ------------------------------------------------------------------ */
+/* 1. Inicio Section
+/* ------------------------------------------------------------------ */
+
+#inicio {
+  background: #b12b7e;
+  padding-top: 96px;
+  padding-bottom: 66px;
+  overflow: hidden;
+  height: 800px;
+  width: 100%;
+}
+#inicio h2 {
+  font: 22px/30px 'opensans-bold', sans-serif;
+  color: #fff;
+  margin-bottom: 12px;
+}
+#inicio p {
+  line-height: 30px;
+  color: #7a7a7a;
+}
+
+/* ------------------------------------------------------------------ */
+/* 2. Header Styles
+/* ------------------------------------------------------------------ */
+header {
+  position: relative;
+  height: 120px;
+  min-height: 100px;
+  width: 100%;
+  background: #8ab3da;
+  text-align: center;
+  overflow: hidden;
+}
+
+.heading {
+  font-weight: 700;
+}
+.subheading {
+  font-weight: 300;
+}
+
+/* ------------------------------------------------------------------ */
+/* 3. Nosotros Section
+/* ------------------------------------------------------------------ */
+
+#nosotros {
+  background: #4b58a3;
+  padding-top: 96px;
+  padding-bottom: 66px;
+  overflow: hidden;
+  height: 800px;
+  width: 100%;
+}
+#nosotros h2 {
+  font: 22px/30px 'opensans-bold', sans-serif;
+  color: #fff;
+  margin-bottom: 12px;
+}
+#nosotros p {
+  line-height: 30px;
+  color: #7a7a7a;
+}
+
+/* ------------------------------------------------------------------ */
+/* 4. Productos Section
+/* ------------------------------------------------------------------ */
+
+#productos {
+  background: #4ba352;
+  padding-top: 96px;
+  padding-bottom: 66px;
+  overflow: hidden;
+  height: 800px;
+  width: 100%;
+}
+#productos h2 {
+  font: 22px/30px 'opensans-bold', sans-serif;
+  color: #fff;
+  margin-bottom: 12px;
+}
+#productos p {
+  line-height: 30px;
+  color: #7a7a7a;
+}
+
+/* ------------------------------------------------------------------ */
+/* 5. Contacto Section
+/* ------------------------------------------------------------------ */
+
+#contacto {
+  background: #a3934b;
+  padding-top: 96px;
+  padding-bottom: 66px;
+  overflow: hidden;
+  height: 800px;
+  width: 100%;
+}
+#contacto h2 {
+  font: 22px/30px 'opensans-bold', sans-serif;
+  color: #fff;
+  margin-bottom: 12px;
+}
+#contacto p {
+  line-height: 30px;
+  color: #7a7a7a;
+}
+
+/* ------------------------------------------------------------------ */
+/* 6. Footer
+/* ------------------------------------------------------------------ */
+
+footer {
+  padding-top: 48px;
+  margin-bottom: 48px;
+  color: #303030;
+  font-size: 14px;
+  text-align: center;
+  position: relative;
 }

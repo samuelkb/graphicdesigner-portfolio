@@ -2,10 +2,12 @@ import React from 'react';
 
 function Nosotros() {
   return (
-    <div>
-      <h1>Vista de Nosotros</h1>
-      <p>En construcción.</p>
-    </div>
+    <section id="nosotros">
+      <div>
+        <h2>Vista de Nosotros</h2>
+        <p>En construcción.</p>
+      </div>
+    </section>
   );
 }
 

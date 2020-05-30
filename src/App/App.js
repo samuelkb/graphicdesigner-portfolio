@@ -9,8 +9,8 @@ import Footer from '../components/Footer';
 export default function App({ initialData }) {
   return (
     <div>
-      <h1>{initialData.appName}</h1>
       <Header />
+      <h1>{initialData.appName}</h1>
       <Inicio />
       <Nosotros />
       <Productos />
