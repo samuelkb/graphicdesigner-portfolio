@@ -2,21 +2,30 @@ import React from 'react';
 
 function Header() {
   return (
-    <header>
+    <header id="inicio">
       <nav id="nav-wrap">
+        <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
+          Show navigation
+        </a>
+        <a className="mobile-btn" href="#inicio" title="Hide navigation">
+          Hide navigation
+        </a>
         <ul id="nav" className="nav">
-          <li>
-            <a>Inicio</a>
+          <li className="current">
+            <a href="#inicio">Inicio</a>
           </li>
           <li>
-            <a>Nosotros</a>
+            <a href="#nosotros">Nosotros</a>
           </li>
           <li>
-            <a>Productos</a>
+            <a href="#productos">Productos</a>
           </li>
           <li>
-            <a>Contacto</a>
+            <a href="#contacto">Contacto</a>
           </li>
+        </ul>
+        <ul>
+          <li>Si lo crees lo creamos</li>
         </ul>
       </nav>
     </header>
