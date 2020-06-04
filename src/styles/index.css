@@ -22,14 +22,21 @@ header {
 }
 
 /* ------------------------------------------------------------------ */
+/* 2. Novedades Section
+/* ------------------------------------------------------------------ */
+
+#novedades {
+  background: #9aa5ec;
+  height: 100%;
+  width: 100%;
+}
+
+/* ------------------------------------------------------------------ */
 /* 3. Nosotros Section
 /* ------------------------------------------------------------------ */
 
 #nosotros {
   background: #6b73a5;
-  padding-top: 96px;
-  padding-bottom: 66px;
-  overflow: hidden;
   height: 100%;
   width: 100%;
 }
@@ -40,9 +47,6 @@ header {
 
 #productos {
   background: #75a079;
-  padding-top: 96px;
-  padding-bottom: 66px;
-  overflow: hidden;
   height: 100%;
   width: 100%;
 }
@@ -53,9 +57,6 @@ header {
 
 #contacto {
   background: #a59860;
-  padding-top: 96px;
-  padding-bottom: 66px;
-  overflow: hidden;
   height: 100%;
   width: 100%;
 }
@@ -65,9 +66,6 @@ header {
 /* ------------------------------------------------------------------ */
 
 footer {
-  padding-top: 48px;
-  margin-bottom: 48px;
-  font-size: 14px;
   text-align: center;
   position: relative;
 }
