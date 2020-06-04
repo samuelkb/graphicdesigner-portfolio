@@ -3,8 +3,8 @@ import React from 'react';
 function Header() {
   return (
     <header>
-      <nav>
-        <ul>
+      <nav id="nav-wrap">
+        <ul id="nav" className="nav">
           <li>
             <a>Inicio</a>
           </li>
