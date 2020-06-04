@@ -3,7 +3,6 @@ body {
   font-family: 'Muli', sans-serif;
   background-image: url('../svg/Fondo.jpg');
   background-size: 100% 100%;
-  position: relative;
 }
 
 /* ------------------------------------------------------------------ */
@@ -11,16 +10,90 @@ body {
 /* ------------------------------------------------------------------ */
 header {
   position: relative;
-  height: 75px;
-  min-height: 50px;
+  height: 100vh;
+  min-height: 500px;
   width: 100%;
-  background: #ffffff;
-  background-size: cover !important;
-  -webkit-background-size: cover !important;
+  background: url(../svg/inicio.png) no-repeat top center;
+  background-size: 100% 100%;
   text-align: center;
   overflow: hidden;
+  /*position: relative;
+  height: auto;
+  min-height: 500px;
+  width: 100%;
+  background-image: url(../svg/inicio.png);
+  background-size: 100% 100%;
+  text-align: center;
+  overflow: hidden;*/
+}
+header:before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+header .banner {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 auto;
+  width: 85%;
+  padding-bottom: 30px;
+  text-align: center;
 }
 
+/* primary navigation */
+#nav-wrap ul,
+#nav-wrap li,
+#nav-wrap a {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+/* nav-wrap */
+#nav-wrap {
+  font: 12px;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  margin: 0 auto;
+  z-index: 100;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+/* hide toggle button */
+#nav-wrap > a.mobile-btn {
+  display: none;
+}
+ul#nav {
+  min-height: 48px;
+  width: auto;
+  text-align: center; /* center align the menu */
+}
+ul#nav li {
+  position: relative;
+  list-style: none;
+  height: 48px;
+  display: inline-block;
+}
+/* Links */
+ul#nav li a {
+  /* 8px padding top + 8px padding bottom + 32px line-height = 48px */
+  display: inline-block;
+  padding: 8px 20px;
+  line-height: 32px;
+  text-decoration: none;
+  text-align: left;
+  color: #000;
+}
+ul#nav li a:active {
+  background-color: transparent !important;
+}
+ul#nav li.current a {
+  color: #f06000;
+}
 /* ------------------------------------------------------------------ */
 /* 2. Novedades Section
 /* ------------------------------------------------------------------ */
