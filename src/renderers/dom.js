@@ -7,7 +7,7 @@ import '../styles/index.css';
 
 import WebFont from 'webfontloader';
 
-WebFont.load({ google: { families: ['Tangerine:48', 'serif'] } });
+WebFont.load({ google: { families: ['Muli', 'sans-serif'] } });
 
 ReactDOM.hydrate(
   <App initialData={window.__R_DATA.initialData} />,
