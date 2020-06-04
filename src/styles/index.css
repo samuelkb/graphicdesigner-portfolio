@@ -1,58 +1,24 @@
-:root {
-  --color-main: #333;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-}
-
 body {
   color: var(--color-main);
-  font-family: 'Tangerine', serif;
+  font-family: 'Muli', sans-serif;
+  background-image: url('../svg/Fondo.jpg');
+  background-size: 100% 100%;
+  position: relative;
 }
 
 /* ------------------------------------------------------------------ */
-/* 1. Inicio Section
-/* ------------------------------------------------------------------ */
-
-#inicio {
-  background: #b12b7e;
-  padding-top: 96px;
-  padding-bottom: 66px;
-  overflow: hidden;
-  height: 800px;
-  width: 100%;
-}
-#inicio h2 {
-  font: 22px/30px 'opensans-bold', sans-serif;
-  color: #fff;
-  margin-bottom: 12px;
-}
-#inicio p {
-  line-height: 30px;
-  color: #7a7a7a;
-}
-
-/* ------------------------------------------------------------------ */
-/* 2. Header Styles
+/* 1. Header Styles
 /* ------------------------------------------------------------------ */
 header {
   position: relative;
-  height: 120px;
-  min-height: 100px;
+  height: 75px;
+  min-height: 50px;
   width: 100%;
-  background: #8ab3da;
+  background: #ffffff;
+  background-size: cover !important;
+  -webkit-background-size: cover !important;
   text-align: center;
   overflow: hidden;
-}
-
-.heading {
-  font-weight: 700;
-}
-.subheading {
-  font-weight: 300;
 }
 
 /* ------------------------------------------------------------------ */
@@ -60,21 +26,12 @@ header {
 /* ------------------------------------------------------------------ */
 
 #nosotros {
-  background: #4b58a3;
+  background: #6b73a5;
   padding-top: 96px;
   padding-bottom: 66px;
   overflow: hidden;
-  height: 800px;
+  height: 100%;
   width: 100%;
-}
-#nosotros h2 {
-  font: 22px/30px 'opensans-bold', sans-serif;
-  color: #fff;
-  margin-bottom: 12px;
-}
-#nosotros p {
-  line-height: 30px;
-  color: #7a7a7a;
 }
 
 /* ------------------------------------------------------------------ */
@@ -82,21 +39,12 @@ header {
 /* ------------------------------------------------------------------ */
 
 #productos {
-  background: #4ba352;
+  background: #75a079;
   padding-top: 96px;
   padding-bottom: 66px;
   overflow: hidden;
-  height: 800px;
+  height: 100%;
   width: 100%;
-}
-#productos h2 {
-  font: 22px/30px 'opensans-bold', sans-serif;
-  color: #fff;
-  margin-bottom: 12px;
-}
-#productos p {
-  line-height: 30px;
-  color: #7a7a7a;
 }
 
 /* ------------------------------------------------------------------ */
@@ -104,21 +52,12 @@ header {
 /* ------------------------------------------------------------------ */
 
 #contacto {
-  background: #a3934b;
+  background: #a59860;
   padding-top: 96px;
   padding-bottom: 66px;
   overflow: hidden;
-  height: 800px;
+  height: 100%;
   width: 100%;
-}
-#contacto h2 {
-  font: 22px/30px 'opensans-bold', sans-serif;
-  color: #fff;
-  margin-bottom: 12px;
-}
-#contacto p {
-  line-height: 30px;
-  color: #7a7a7a;
 }
 
 /* ------------------------------------------------------------------ */
@@ -128,7 +67,6 @@ header {
 footer {
   padding-top: 48px;
   margin-bottom: 48px;
-  color: #303030;
   font-size: 14px;
   text-align: center;
   position: relative;
